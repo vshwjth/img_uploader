@@ -10,6 +10,6 @@ def upload_image(filename, server_url):
             print("Failed to upload image:", response.text)
 
 if __name__ == "__main__":
-    filename = '/path/to/your/image.jpg'  # Replace with the path to your image file
+    filename = './cat.jpg'  # Replace with the path to your image file
     server_url = 'http://localhost:5000/upload'  # Replace with the server URL
     upload_image(filename, server_url)
